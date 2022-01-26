@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: table;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.row {
+    display: table-row;
+    height: 50%;
+}
+
+.row:nth-child(1) {
+    background-color: #a8dadc;
+    background-image: url(https://pa1.narvii.com/7376/29c7413d74b37e49cb0700f372f5cd5a3cdfe745r1-500-147_hq.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row:nth-child(2) {
+    background-color: #a8dadc;
+}
+
+img {
+    border-radius: 100%;
+    border-color: #240046;
+}
+
+hr {
+    border-style: none;
+    border-top: 10px dotted #240046;
+    width: 5%;
+}
+
+ul {
+    list-style: none;
+}
